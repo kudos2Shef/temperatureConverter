@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  }
+.box{
+  margin:2.5rem 0;
+}
+.container{
+  border:2px solid rgb(82, 82, 82);
+ /* margin: 2rem ;*/
+  margin:auto;
+  padding:3rem;
+  font-size:1.25rem;
+  /*width:700px;*/
+  
+  /*color:red;*/
+}
+#celsius,#fahrenheit{
+  background-color:rgb(247, 249, 255);
+  text-align:center;
+  border:2px solid rgb(82, 82, 82);
+}
+#intro{
+  font-size:1.25rem;
+}
+
+@media screen and (min-width:871px){
+#in{
+  padding-left:2vw;
+
+}
+  .container{
+    border-color:rgb(82, 82, 82);
+    font-size:1.5rem;
+  }
+  #fahrenheit,#celsius{
+    font-size:1.25rem;
+  }
+  #intro{
+    font-size:1.25rem;
+  }
+}
+
+@media screen and (min-width:495px) and (max-width:686px){
+  #in{
+    /*color:orangered;*/
+    padding-top:1rem;
+  }
+
+  .container{
+  border:2px solid rgb(82, 82, 82);
+  margin: 2.5rem ;
+  padding:2.5rem;
+  height:120px;
+  width: 70%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  
+}
+  #fahrenheit,#celsius{
+    font-size:1rem;
+
+  }
+  #intro{
+    font-size:1.2rem;
+  }
+  }
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
